@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selamat Hari Jadi Abah 🎂</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin:0;
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      font-family:'Amiri', serif;
+      background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+      color:#f5f5f5;
+      padding:20px;
+      overflow:hidden;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(8px);
+      padding:40px;
+      border-radius:20px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.3);
+      animation: fadeIn 2s ease;
+      max-width:700px;
+    }
+
+    h1 {
+      font-size:2em;
+      line-height:1.6;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes fadeIn {
+      from {opacity:0; transform: translateY(20px);}
+      to {opacity:1; transform: translateY(0);}
+    }
+
+    @keyframes float {
+      0% {transform: translateY(0);}
+      50% {transform: translateY(-5px);}
+      100% {transform: translateY(0);}
+    }
+
+    .moon {
+      position:absolute;
+      top:40px;
+      right:40px;
+      font-size:40px;
+      opacity:0.6;
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from {opacity:0.4;}
+      to {opacity:0.8;}
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="moon">🌙</div>
+
+<div class="card">
+  <h1>
+    🎉 Selamat Hari Jadi Abah 🎂 <br><br>
+    Danish doakan semoga Abah dan Mama bahagia dan dimurahkan rezeki,
+    hidup diberkati Allah, dan semoga Allah permudahkan urusan. <br><br>
+    Sayang Mama Abah ❤️
+  </h1>
+</div>
+
+<!-- Nasheed (you can replace link later if you want) -->
+<audio autoplay loop>
+  <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_5b2c7c7a4b.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
